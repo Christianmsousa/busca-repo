@@ -1,0 +1,43 @@
+.rocket{
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rocket input,button{
+  padding-left: 10px;
+  width: 30rem;
+  margin-bottom: 5rem;
+  height: 4rem;
+  font-size: 1.8rem;
+  border-radius: 4px;
+}
+.rocket button{
+  background: whitesmoke;
+  transition: background 400ms;
+}
+.rocket button:hover{
+  background: grey;
+}
+.rocket button:focus{
+  outline: none;
+}
+ul li{
+  font-size: 1.9rem;
+}
+.hidden{
+  opacity: 0;
+}
+.box{
+  transition: opacity 4000ms;
+}
+
+.rocket h1{
+  padding-bottom: 1.9rem;
+  font-size: 2.6rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
